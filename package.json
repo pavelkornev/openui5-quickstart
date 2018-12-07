@@ -1,0 +1,26 @@
+{
+  "name": "openui5-quickstart",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pavelkornev/openui5-quickstart.git"
+  },
+  "dependencies": {
+    "@openui5/sap.m": "1.60.1",
+    "@openui5/sap.tnt": "1.60.1",
+    "@openui5/sap.ui.core": "1.60.1",
+    "@openui5/sap.ui.layout": "1.60.1",
+    "@openui5/sap.ui.table": "1.60.1",
+    "@openui5/themelib_sap_belize": "1.60.1"
+  },
+  "author": "SAP SE",
+  "license": "MIT",
+  "devDependencies": {
+    "@ui5/cli": "^0.2.1"
+  }
+}
