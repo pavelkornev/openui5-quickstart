@@ -2,9 +2,10 @@
   "name": "openui5-quickstart",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "./.sandbox/index.js",
   "scripts": {
-    "start": "ui5 serve"
+    "start": "node ./.sandbox/server.js",
+    "build": "ui5 build -a"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   "author": "SAP SE",
   "license": "MIT",
   "devDependencies": {
-    "@ui5/cli": "^0.2.1"
+    "@ui5/cli": "1.11.1",
+    "express": "4.16.4"
   }
 }
